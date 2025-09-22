@@ -1,0 +1,5 @@
+- Character-level or k-mer tokenization (overlapping) with special tokens.
+- BERT-style masking (80/10/10) with configurable probabilities.
+- Efficient streaming FASTA/txt loader; handles long genomes by chunking.
+- Mixed precision (AMP), gradient accumulation, cosine schedule with warmup.
+- Checkpointing & resume support; small Transformer encoder baseline.
